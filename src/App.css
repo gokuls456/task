@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.filter-dropdown > button {
+  display: block;
+  margin-left: auto;
+}
+
+.filter-dropdown {
+  padding: 10px;
+}
+tr,
+td {
+  cursor: pointer;
+}
