@@ -52,7 +52,7 @@ function TableView() {
           alt="loading"
         ></img>
       ) : (
-        <Table striped bordered hover variant="dark">
+        <Table striped bordered hover className="table-view" variant="dark">
           <thead>
             <tr>
               {columns.map((data, i) => (
